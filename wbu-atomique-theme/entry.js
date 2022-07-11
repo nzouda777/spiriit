@@ -10,7 +10,8 @@ module.exports = {
     //"rod-mod-testimony-section": "./src/js/sections/spiriit/rod-mod-testimony-section.js",
     //"rod-mod-expertise-section": "./src/js/sections/spiriit/rod-mod-expertise-section.js",
     //"rod-mod-spiriit-services-teaser": "./src/js/teasers/spiriit/rod-mod-service-teaser.js",
-    "rod-mod-spiriit-ressource-section": "./src/js/sections/spiriit/rod-mod-ressource-section.js"
+    //"rod-mod-spiriit-ressource-section": "./src/js/sections/spiriit/rod-mod-ressource-section.js",
+    "spiriit-card-service-teaser": "./src/js/teasers/spiriit/spiriit-card-service-teaser.js"
 };
 
 // export default {
