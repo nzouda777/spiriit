@@ -1,0 +1,6 @@
+name: spiriit
+type: module
+description: layout intergration for spiriit theme
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9

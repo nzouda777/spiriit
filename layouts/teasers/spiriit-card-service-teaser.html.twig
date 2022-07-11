@@ -1,0 +1,19 @@
+{% if content %}
+<div class="single-offer-teaser col-lg-3 col-md-5 col-sm-12">
+    <a href="#" class="card-info">
+        {% if content.card_title %}
+            <div {{ region_attributes.card_title.addClass("card-title")}}>
+                {{ content.card_title }} 
+            </div>
+        {% endif %}
+        {% if content.card_desc %}
+            <div {{ region_attributes.card_desc.addClass("small-desc")}}>
+                {{ content.card_desc }} 
+            </div>
+        {% endif %}
+        <span class="btn">
+            <div class="arrow">></div>
+        </span>
+    </a>
+</div>
+{% endif %}

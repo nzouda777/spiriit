@@ -1,0 +1,7 @@
+spiriit.example:
+  path: '/spiriit/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\spiriit\Controller\SpiriitController::build'
+  requirements:
+    _permission: 'access content'
