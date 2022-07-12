@@ -11,7 +11,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
  * 
  * @Layout(
  *  id = "spiriit_testimony_section_layout",
- *  label = @Translation(" spiriit Spiriit testimony section"),
+ *  label = @Translation(" Spiriit testimony "),
  *  category = @Translation("spiriit"),
  *  path = "layouts/sections",
  *  template = "spiriit-testimony-section",
@@ -46,7 +46,7 @@ use Drupal\bootstrap_styles\StylesGroup\StylesGroupManager;
 
      public function __construct(array $configuration, $plugin_id, $plugin_definition, StylesGroupManager $style_group_manager){
         parent:: __construct($configuration, $plugin_id, $plugin_definition, $style_group_manager);
-        $this->pluginDefinition->set('icon', drupal_get_path('module', 'rod_mod') . "/icones/sections/spiriittestimony.jpeg");
+        $this->pluginDefinition->set('icon', drupal_get_path('module', 'spiriit') . "/icones/sections/spiriittestimony.jpeg");
      }
      /**
       * {@inheritdoc}
