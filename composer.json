@@ -9,11 +9,7 @@
         "stephane888/formatage_models": "dev-3x"
     },
     "license": "GPL-2.0+",
-    "autoload": {
-        "psr-4": {
-            "Rodriguenzouda\\Spiriit\\": "src/"
-        }
-    },
+    
     "authors": [
         {
             "name": "Rodrigue NZOUDA",
