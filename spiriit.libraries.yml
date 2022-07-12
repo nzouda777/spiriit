@@ -41,6 +41,6 @@ vuejs:
 spiriit-card-service-teaser:
   css:
     theme:
-      layouts/css/spiriit/spiriit-card-service-teaser.css: {}
+      layouts/css/spiriit-card-service-teaser.css: {}
   js:
-    layouts/js/spiriit/spirit-card-service-teaser.js: {}
+    layouts/js/spirit-card-service-teaser.js: {}
