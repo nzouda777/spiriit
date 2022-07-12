@@ -1,0 +1,81 @@
+{% if content %}
+<section {{ attributes.addClass("testimony-section-handler")}} >
+    <div class="container-fluid ">
+        <div class="row no-gutters">
+            <div class="col-lg-12 ">
+                <div class="head col-lg-6 col-md-12 col-sm-12">
+                {% if content.section_title %}
+                    <div {{region_attribute.section_title.addClass('subtitle')}}>
+                        {{ content.section_title }}
+                    </div>
+                {% endif %}
+                {% if content.testimony_intro %}
+                    <h2 {{region_attribute.testimony_intro.addClass('content')}}>
+                        {{ content.testimony_intro }}
+                    </h2>
+                {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12  swipe-handler">
+            <div class="element ">
+                <div class="prev arrow"><</div>
+                <div class="swipers-wrapper">
+                    <div class="slide-handler ">
+                        <div class="swiper">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide ">
+                                    
+                                    {% if content.testimony %}
+                                        <q {{region_attribute.testimony.addClass('testimony')}}>
+                                            {{ content.testimony }}
+                                        </q>
+                                    {% endif %}
+                                    {% if content.testimony %}
+                                        <div {{region_attribute.lutin_name.addClass('author')}}>
+                                            {{ content.lutin_name}}
+                                        </div>
+                                    {% endif %}
+                                    {% if content.lutin_role %}
+                                        <div {{region_attribute.lutin_role.addClass('role')}}>
+                                            {{ content.lutin_role }}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                                <div class="swiper-wrapper ">
+                                    <!-- Slides -->
+                                      <div class="swiper-slide ">
+                                          {% if content.testimony %}
+                                        <q {{region_attribute.testimony.addClass('testimony')}}>
+                                            {{ content.testimony }}
+                                        </q>
+                                    {% endif %}
+                                    {% if content.testimony %}
+                                        <div {{region_attribute.lutin_name.addClass('author')}}>
+                                            {{ content.lutin_name}}
+                                        </div>
+                                    {% endif %}
+                                    {% if content.lutin_role %}
+                                        <div {{region_attribute.lutin_role.addClass('role')}}>
+                                            {{ content.lutin_role }}
+                                        </div>
+                                    {% endif %}
+                                      </div>                                  
+                                  </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                          
+                            <div class="swiper-scrollbar"></div>
+                          </div>
+                    </div>
+                </div>
+                
+                <div class="next arrow">></div>
+            </div>
+        </div>
+
+</section>
+{% endif %}

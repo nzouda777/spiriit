@@ -44,3 +44,10 @@ spiriit-card-service-teaser:
       layouts/css/spiriit-card-service-teaser.css: {}
   js:
     layouts/js/spirit-card-service-teaser.js: {}
+
+spiriit-testimony-section:
+  css:
+    theme:
+      layouts/css/spiriit-testimony-section.css: {}
+  js:
+    layouts/js/spiriit-testimony-section.js: {}
