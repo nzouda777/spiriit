@@ -3,10 +3,7 @@
     "description": "a drupal module for layout integration",
     "type": "drupal-module-custom",
     "require": {
-        "stephane888/formatage_models": "^3.2"
-    },
-    "require-dev": {
-        "stephane888/formatage_models": "dev-3x"
+        "stephane888/formatage_models": "dev-3x | ^3.2"
     },
     "license": "GPL-2.0+",
     
