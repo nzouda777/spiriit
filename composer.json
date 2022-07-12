@@ -1,0 +1,24 @@
+{
+    "name": "nzouda777/spiriit",
+    "description": "a drupal module for layout integration",
+    "type": "drupal-module-custom",
+    "require": {
+        "stephane888/formatage_models": "^3.2"
+    },
+    "require-dev": {
+        "stephane888/formatage_models": "dev-3x"
+    },
+    "license": "GPL-2.0+",
+    "autoload": {
+        "psr-4": {
+            "Rodriguenzouda\\Spiriit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rodrigue NZOUDA",
+            "email": "rodriguenzouda@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
